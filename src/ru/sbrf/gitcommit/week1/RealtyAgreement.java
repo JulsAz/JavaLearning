@@ -1,3 +1,5 @@
+package ru.sbrf.gitcommit.week1;
+
 public class RealtyAgreement extends Agreement{
 
     private RealtyObject realtyObject;

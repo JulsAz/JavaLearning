@@ -1,3 +1,5 @@
+package ru.sbrf.gitcommit.week1;
+
 public class RealtyObject {
 
     private String name;

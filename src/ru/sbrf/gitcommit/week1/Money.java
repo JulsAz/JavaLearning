@@ -1,3 +1,5 @@
+package ru.sbrf.gitcommit.week1;
+
 public class Money {
 
     private long amount;
