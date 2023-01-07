@@ -2,10 +2,6 @@ package ru.sbrf.gitcommit.week1;
 
 public class Main {
     public static void main(String[] args) {
-        String newString = "Новая строка";
-
-        Class stringClass = newString.getClass();
-        System.out.println(stringClass.getName());
 
         Money amount1 = new Money(1000, "RUB");
         Person applicant1 = new Person("OOO Фора", "123");
