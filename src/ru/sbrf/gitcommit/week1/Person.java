@@ -12,6 +12,22 @@ public class Person {
         this.taxId = taxId;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getTaxId() {
+        return taxId;
+    }
+
+    public void setTaxId(String taxId) {
+        this.taxId = taxId;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
