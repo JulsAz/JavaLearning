@@ -5,9 +5,10 @@ public class Person {
     private String name;
     private String taxId;
 
-    public Person () {}
+    public Person() {
+    }
 
-    public Person (String name, String taxId) {
+    public Person(String name, String taxId) {
         this.name = name;
         this.taxId = taxId;
     }

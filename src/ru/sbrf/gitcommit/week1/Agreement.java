@@ -6,9 +6,10 @@ public class Agreement {
     private Person applicant;
     private Money amount;
 
-    public  Agreement () {}
+    public Agreement() {
+    }
 
-    public Agreement ( String reference, Person applicant, Money amount) {
+    public Agreement(String reference, Person applicant, Money amount) {
         this.reference = reference;
         this.applicant = applicant;
         this.amount = amount;

@@ -5,9 +5,10 @@ public class Money {
     private long amount;
     private String currency;
 
-    public Money () {
+    public Money() {
     }
-    public Money (long amount, String currency) {
+
+    public Money(long amount, String currency) {
         this.amount = amount;
         this.currency = currency;
     }
