@@ -1,12 +1,19 @@
 package ru.sbrf.gitcommit.week1;
 
+import ru.sbrf.gitcommit.week4.AgreementStatus;
+
 public class Agreement {
 
     private String reference;
     private Person applicant;
     private Money amount;
+    private AgreementStatus agreementStatus;
 
     public Agreement() {
+    }
+
+    public Agreement(AgreementStatus agreementStatus) {
+        this.agreementStatus = agreementStatus;
     }
 
     public Agreement(String reference, Person applicant, Money amount) {
@@ -14,6 +21,7 @@ public class Agreement {
         this.applicant = applicant;
         this.amount = amount;
     }
+
 
     public String getReference() {
         return reference;
@@ -39,12 +47,22 @@ public class Agreement {
         this.amount = amount;
     }
 
+    public AgreementStatus getAgreementStatus() {
+        return agreementStatus;
+    }
+
+    public void setAgreementStatus(AgreementStatus agreementStatus) {
+        this.agreementStatus = agreementStatus;
+    }
+
+
     @Override
     public String toString() {
         return "Agreement{" +
                 "reference='" + reference + '\'' +
                 ", applicant=" + applicant +
                 ", amount=" + amount +
+                ", agreementStatus=" + agreementStatus +
                 '}';
     }
 }

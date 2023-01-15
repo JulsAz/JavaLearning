@@ -1,5 +1,8 @@
 package ru.sbrf.gitcommit.week1;
 
+import ru.sbrf.gitcommit.service.AgreementService;
+import ru.sbrf.gitcommit.week4.AgreementStatus;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,5 +15,12 @@ public class Main {
 
         System.out.println(firstAgreement);
         System.out.println(secondAgreement);
+
+        // enam part
+        //В классе Main методе main создаем Agreement со статусом, создаем сервис, передаем методу close сервиса созданный агримент"
+        Agreement thirdAgreement = new Agreement(AgreementStatus.CLOSED);
+        AgreementService agreementService = new AgreementService();
+        agreementService.close(thirdAgreement);
+
     }
 }
