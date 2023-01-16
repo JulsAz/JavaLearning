@@ -1,36 +1,38 @@
 package ru.sbrf.gitcommit.week4;
 
+import ru.sbrf.gitcommit.week4.extratask.WarShips;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("cycle While even");
-        Cycle.whileLoopEven();
+        Loop.whileLoopEven();
         System.out.println();
 
         System.out.println("cycle While odd");
-        Cycle.whileLoopOdd();
+        Loop.whileLoopOdd();
         System.out.println();
 
         System.out.println("cycle For even");
-        Cycle.forLoopEven();
+        Loop.forLoopEven();
         System.out.println();
 
         System.out.println("cycle For odd");
-        Cycle.forLoopOdd();
+        Loop.forLoopOdd();
         System.out.println();
 
         System.out.println("cycle Do while even");
-        Cycle.doWhileLoopEven();
+        Loop.doWhileLoopEven();
         System.out.println();
 
         System.out.println("cycle Do while odd");
-        Cycle.doWhileLoopOdd();
+        Loop.doWhileLoopOdd();
         System.out.println();
 
         //задание switch
-        Age.getAge();
+        //Age.getAge();
         System.out.println();
 
-        Animal.getAnimal();
+        //Animal.getAnimal();
         System.out.println();
 
         //задание enam - в мейн недели 1
@@ -40,5 +42,7 @@ public class Main {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
+
+        WarShips.findChar();
     }
 }

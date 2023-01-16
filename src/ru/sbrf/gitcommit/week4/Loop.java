@@ -1,6 +1,6 @@
 package ru.sbrf.gitcommit.week4;
 
-public class Cycle {
+public class Loop {
     static int number;
     static int iteration;
 
@@ -17,16 +17,16 @@ public class Cycle {
 
 
     public static void whileLoopOdd() {
-        number = 1;
+        number = 9;
         iteration = 0;
-        while (number <= 10) {
+        while (number >= 0) {
             iteration++;
             if (iteration % 3 == 0) {
                 System.out.println(number + "!");
             } else {
                 System.out.println(number);
             }
-            number += 2;
+            number -= 2;
         }
     }
 
@@ -41,7 +41,7 @@ public class Cycle {
 
     public static void forLoopOdd() {
         iteration = 0;
-        for (int i = 1; i <= 10; i = i + 2) {
+        for (int i = 9; i >= 0; i = i - 2) {
             iteration++;
             if (iteration % 3 == 0) {
                 System.out.println(i + "!");
@@ -62,7 +62,7 @@ public class Cycle {
     }
 
     public static void doWhileLoopOdd() {
-        number = 1;
+        number = 9;
         iteration = 0;
         do {
             iteration++;
@@ -71,7 +71,7 @@ public class Cycle {
             } else {
                 System.out.println(number);
             }
-            number += 2;
-        } while (number <= 10);
+            number -= 2;
+        } while (number >= 0);
     }
 }
