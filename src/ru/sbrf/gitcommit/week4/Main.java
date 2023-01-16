@@ -33,8 +33,12 @@ public class Main {
         Animal.getAnimal();
         System.out.println();
 
-        //задание enam
-        // в мейн недели 1
+        //задание enam - в мейн недели 1
+        //arreys: В main создать массив циферок от 5 до 10. С помощью цикла вывести их в консоль
 
+        int[] numbers = {5, 6, 7, 8, 9, 10};
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
     }
 }
