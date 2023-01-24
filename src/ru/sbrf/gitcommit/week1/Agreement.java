@@ -2,7 +2,7 @@ package ru.sbrf.gitcommit.week1;
 
 import ru.sbrf.gitcommit.week4.AgreementStatus;
 
-public class Agreement {
+abstract public class Agreement {
 
     private String reference;
     private Person applicant;
