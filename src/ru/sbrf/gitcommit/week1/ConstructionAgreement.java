@@ -1,6 +1,5 @@
 package ru.sbrf.gitcommit.week1;
 
-import ru.sbrf.gitcommit.week1.Agreement;
 import ru.sbrf.gitcommit.week4.AgreementStatus;
 
 public class ConstructionAgreement extends Agreement {

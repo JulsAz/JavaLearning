@@ -1,6 +1,6 @@
 package ru.sbrf.gitcommit.week5;
 
-public class Magazine implements Printable{
+public class Magazine implements Printable {
     //Определить класс Magazine, реализующий интерфейс Printable.
 
     @Override

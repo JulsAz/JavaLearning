@@ -4,5 +4,5 @@ package ru.sbrf.gitcommit.week5;
 
 import ru.sbrf.gitcommit.week1.Agreement;
 
-abstract class Operation <T extends Agreement> {
+abstract class Operation<T extends Agreement> {
 }

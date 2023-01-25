@@ -6,6 +6,8 @@ public class RealtyAgreement extends Agreement {
 
     private RealtyObject realtyObject;
 
+    public RealtyAgreement() {
+    }
 
     public RealtyAgreement(String reference, Person applicant, Money amount) {
         super(reference, applicant, amount);
