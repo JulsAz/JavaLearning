@@ -1,6 +1,6 @@
 package ru.sbrf.gitcommit.week5;
 
-public class Book implements Printable{
+public class Book implements Printable {
     //Определить класс Book, реализующий интерфейс Printable.
 
     @Override
